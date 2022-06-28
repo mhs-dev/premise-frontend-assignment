@@ -1,0 +1,23 @@
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 29px;
+  background: transparent;
+  cursor: pointer;
+
+  &.one {
+    border: 1px solid #295FD1;
+    color: #295FD1;
+  }
+
+  &.two {
+    border: 1px solid #E14A24;
+    color: #E14A24;
+  }
+}
